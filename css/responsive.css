@@ -1,19 +1,77 @@
-@media only screen and (max-width:855px) {
-    .snakes {
-        display: none;
-    }
+@media only screen and (max-width:590px) {
     .responsive {
         display: block;
-        background-image: url("../img/background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 600px;
-        padding-top: 370px;
+    }
+}
+
+@media only screen and (max-width:955px) {
+    .snakes {
+        margin-top: 150px;
+    }
+    .center {
+        display: none;
+    }
+    .main {
+        width: 350px;
+        height: 200px;
     }
     .responsive h1 {
         text-align: center;
         color: red;
         background-color: green;
+    }
+}
+
+@media only screen and (max-width:1235px) {
+    .main {
+        width: 550px;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width:1555px) {
+    .snakes {
+        height: 750px;
+    }
+    .main {
+        width: 850px;
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width:1555px) {
+    .snakes {
+        height: 750px;
+    }
+    .main {
+        width: 900px;
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width:1730px) {
+    .snakes {
+        height: 850px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .snakes {
+        height: 1000px;
+    }
+    .main {
+        width: 1000px;
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width:2400px) {
+    .snakes {
+        height: 1300px;
+    }
+    .main {
+        margin-top: 60px;
+        width: 1200px;
+        height: 1000px;
     }
 }

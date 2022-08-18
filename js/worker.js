@@ -101,7 +101,6 @@ function gameLogic() {
         backSound.play;
         gamePoint = 0;
         gameOut.style.display = 'block';
-        document.body.style.backgroundColor = 'gray';
     }
 }
 
