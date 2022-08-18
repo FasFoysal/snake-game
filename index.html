@@ -8,27 +8,35 @@
     <title>Snake</title>
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <!-- ------ background-color change  -->
-    <div class="center">
-        <button class="color"></button>
-        <button class="color"></button>
-        <button class="color"></button>
+    <!-- responsive -->
+    <div class="responsive">
+        <h1>Sorry baddy this device not supported this game... you need to open big display</h1>
     </div>
-    <!-- ------ score------ -->
-    <div class="score">
-        <h4 id="newScore">New Score:</h4>
-        <h4 id="highScore"></h4>
-    </div>
-    <!-- ------snake box--- -->
-    <div id="snakBox" class="main">
-    </div>
-    <!-- ---- game over ------ -->
-    <p id="gameOver">Game Over !</p>
+    <div class="snakes">
 
-    <p id="see">@Fas Foysal view the source code <span><a href="https://github.com/FasFoysal/snake-game">click</a></span></p>
+        <!-- ------ background-color change  -->
+        <div class="center">
+            <button class="color"></button>
+            <button class="color"></button>
+            <button class="color"></button>
+        </div>
+        <!-- ------ score------ -->
+        <div class="score">
+            <h4 id="newScore">New Score:</h4>
+            <h4 id="highScore"></h4>
+        </div>
+        <!-- ------snake box--- -->
+        <div id="snakBox" class="main">
+        </div>
+        <!-- ---- game over ------ -->
+        <p id="gameOver">Game Over !</p>
+
+        <p id="see">@Fas Foysal view the source code <span><a href="https://github.com/FasFoysal/snake-game">click</a></span></p>
+    </div>
     <!-- ---- js add--- -->
     <script src="js/worker.js"></script>
 </body>

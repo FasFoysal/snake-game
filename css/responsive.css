@@ -1,0 +1,19 @@
+@media only screen and (max-width:855px) {
+    .snakes {
+        display: none;
+    }
+    .responsive {
+        display: block;
+        background-image: url("../img/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        padding-top: 370px;
+    }
+    .responsive h1 {
+        text-align: center;
+        color: red;
+        background-color: green;
+    }
+}
